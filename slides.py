@@ -1,5 +1,13 @@
+import os.path
+import sys
 import yaml
 import markdown
+
+def get_filename(package, resource):
+   """Get the absolute path to a file inside a given Python package"""
+   d = os.path.dirname(sys.modules[package].__file__)
+   d = os.path.abspath(d)
+   return os.path.join(d, resource)
 
 class RuleSet(object):
 	def __init__(self, selector, **styles):
@@ -24,7 +32,11 @@ def read_slides(fil):
 	return result
 
 import mako.template
-template = mako.template.Template(file('template.mako').read())
+template = mako.template.Template(
+	file(
+		get_filename('slideserver', 'template.mako')
+	).read()
+)
 
 def make_slide(slide):
 	config = slide['config']
@@ -66,7 +78,7 @@ if __name__ == '__main__':
 
 	from twisted.internet import reactor
 	from twisted.web import static, server
-	root = static.File('static_files')
+	root = static.File(SlideshowResource.static_files)
 	root.putChild('', SlideshowResource())
 	import os
 	port = int(os.getenv('PORT', 8080))
