@@ -1,0 +1,101 @@
+id: index
+attrs: 
+   x: 0
+   y: 0
+   z: 250
+   rotate-y: 0
+   scale: 1
+style:
+   background: "#bdba95"
+#   border: none !important
+---
+# The first slide
+
+- the slides are written in markdown which is easy to write
+- they use a yaml config for flexibility
+- it leverages the impress.js library for visual effects on WebGL browsers
+- it has a reasonable fallback
+ 
+------
+id: "who"
+attrs:
+   x: 250
+   y: 0
+   z: 0
+   rotate-y: 90
+   #"rotate-z": 36
+style:
+   background: red
+---
+## The second slide
+
+1. Numbered
+2. Lists
+3. Work
+------
+id: "what"
+
+attrs:
+   x: 0
+   y: 0
+   z: -250
+   rotate-y: 180
+   #"rotate-z": 108
+style:
+   background: orange
+---
+The text *is easily* **formatted**
+------
+id: "where"
+
+attrs:
+   x: -250
+   y: 0
+   z: 0
+   #"rotate-z": 180
+   rotate-y: 270
+style:
+   background: yellow
+---
+This is some text
+
+     Code blocks
+     work in some ways
+Some more text
+------
+id: "when"
+
+attrs:
+   x: 0
+   y: 250
+   z: 0
+   #"rotate-z": 252
+   rotate-x: -90
+   rotate-y: 360
+style:
+   background: green
+---
+## Images
+
+![Alt Text](https://www.google.com/logos/2012/martin_luther_king-2012-hp.jpg "an image")
+
+------
+id: "save-the-date"
+attrs:
+   x: 0
+   y: -250
+   z: 0
+   rotate-x: -270
+   rotate-y: 360
+style:
+   background: blue
+---
+<div class='vcenter'>
+
+# Links
+
+- [Amazon Registry](https://www.amazon.com/registry/wedding/1RTS4LWC99RCK)
+- [Photo Bucket](https://www.amazon.com/registry/wedding/1RTS4LWC99RCK)
+- [College Website](http://thomasaquinas.edu)
+
+</div>

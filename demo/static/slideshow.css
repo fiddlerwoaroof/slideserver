@@ -1,0 +1,27 @@
+body {
+   background: #888
+}
+
+a:visited, a {
+   color: inherit
+}
+
+#impress  div.step {
+   border: thick #777 outset;
+   text-align: center;
+   font-size: x-large;
+   width: 15em;
+   height: 15em;
+   width: 490px;
+   height: 490px;
+   position: relative;
+}
+
+.vcenter {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   margin-top: -5em;
+}
+
+
