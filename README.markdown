@@ -1,7 +1,7 @@
 To Install
-
-      % virtualenv -p python2.7 slideserver_env
-      % cd slideserver_env
+      
+      % cd /path/to/slideserver
+      % virtualenv -p python2.7 .
       % source bin/activate
       % pip install -r requirements.txt
 
