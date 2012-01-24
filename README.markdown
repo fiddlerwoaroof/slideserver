@@ -3,12 +3,12 @@
 
 1. Get the source:
 
-      % git clone https://github.com/fiddlerwoaroof/slideserver.git
-      Cloning into slideserver...
-      remote: Counting objects: 53, done.
-      remote: Compressing objects: 100% (43/43), done.
-      remote: Total 53 (delta 21), reused 33 (delta 8)
-      Unpacking objects: 100% (53/53), done.
+            % git clone https://github.com/fiddlerwoaroof/slideserver.git
+            Cloning into slideserver...
+            remote: Counting objects: 53, done.
+            remote: Compressing objects: 100% (43/43), done.
+            remote: Total 53 (delta 21), reused 33 (delta 8)
+            Unpacking objects: 100% (53/53), done.
 
 2. Install virtualenv:
 
