@@ -3,7 +3,7 @@
 
 1. Get the source:
 
-      % git clone https://github.com/fiddlerwoaroof/slideserver.git                                                                       [14:28]
+      % git clone https://github.com/fiddlerwoaroof/slideserver.git
       Cloning into slideserver...
       remote: Counting objects: 53, done.
       remote: Compressing objects: 100% (43/43), done.
