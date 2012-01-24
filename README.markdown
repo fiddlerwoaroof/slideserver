@@ -12,14 +12,14 @@
 
 2. Install virtualenv:
 
-      % sudo easy_install-2.6 virtualenv
-      Password: ...
-      Searching for virtualenv
-      Reading http://pypi.python.org/simple/virtualenv/
-      <snip>
-      Installed .../virtualenv-1.7-py2.6.egg
-      Processing dependencies for virtualenv
-      Finished processing dependencies for virtualenv
+    % sudo easy_install-2.6 virtualenv
+    Password: ...
+    Searching for virtualenv
+    Reading http://pypi.python.org/simple/virtualenv/
+    <snip>
+    Installed .../virtualenv-1.7-py2.6.egg
+    Processing dependencies for virtualenv
+    Finished processing dependencies for virtualenv
 
 
 3. Install prerequisites:
