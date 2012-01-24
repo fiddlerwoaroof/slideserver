@@ -1,4 +1,5 @@
-To Install
+## Installation
+
 
 1. Get the source:
 
@@ -40,3 +41,4 @@ To Install
       % PYTHONPATH=../.. PORT=8081 python -m slideserver.slides slideshow static
 
 5. Navigate to <http://localhost:8081>
+
